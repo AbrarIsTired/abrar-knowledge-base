@@ -1,42 +1,3 @@
-
-
-**GIT Cheat Sheet**
-Account Setup (New Device)
-```
-git config --global user.name "USERNAME"
-git config --global user.email "EMAIL"
-```
-
-Setting Up Repo (Locally/New Device):
-```
-git clone REPO_LINK
-```
-
-Pull Changes (Repo -> Local):
-```
-git pull
-```
-
-Staging Changes (Edited, Altered or Deleted Files):
-```
-git add .
-```
-
-Commit Changes w/ Note:
-```
-git commit -m "Message"
-```
-
-Push Changes to Repo (Local -> Repo):
-```
-git push origin main
-
-OR
-
-git push
-```
-
-
 **The Guide**
 
 **What is Git?**
@@ -59,5 +20,14 @@ Next right click in a folder, empty desktop or anywhere that you can get your Co
 git --version
 ```
 
-**Getting Started: Setting Up Git**
+If done correctly it will spit out the version you have installed and let's us know you are good to go. At the time this part was written I am using 2.50.1.windows.1
 
+**Getting Started: Setting Up Git**
+You need to tell Git who you are and your email, almost like making an account. This is for verification alongside telling others in the project who you are and what changes you are making. To do that we use these commands:
+
+```
+git config --global user.name "USERNAME"
+git config --global user.email "EMAIL"
+```
+
+In my case I use Abrar for my username and my email is the same one tied to my Github account. I would recommend doing it that way if you plan on working off GitHub a lot
