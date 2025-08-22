@@ -1,1 +1,0 @@
-Python is useful for doing many things, while it doesnt specialize in anything specific or is super efficient it's still a great tool to keep in your pocket

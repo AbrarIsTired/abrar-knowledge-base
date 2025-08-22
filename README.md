@@ -1,5 +1,6 @@
-This is your new *vault*.
+**Abrar's Public Knowledge Base**
 
-Make a note of something, [[create a link]], or try [the Importer](https://help.obsidian.md/Plugins/Importer)!
+Welcome to my personal knowledge management system built with Obsidian and maintained through Git version control. This repository serves as a curated collection of my technical notes, learning resources, project documentation, and educational content.
 
-When you're ready, delete this note and make the vault your own.
+**Repo Structure**
+I have all my notes (Which are all .md or Markdown Files) organized in various folders. This helps keep all my notes organized and also easier to find notes that I need to reference or edit. 

@@ -15,6 +15,12 @@ Pull Changes (Repo -> Local):
 git pull
 ```
 
+Force Pull from Main (Repo -> Local):
+```
+git fetch origin
+git reset --hard origin/main
+```
+
 Staging Changes (Edited, Altered or Deleted Files):
 ```
 git add .
@@ -34,3 +40,7 @@ OR
 git push
 ```
 
+Create & Move to Branch
+```
+git checkout -b branchName
+```
