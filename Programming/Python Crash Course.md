@@ -1,48 +1,53 @@
 **Data Types**
 ```python
 # int: Whole Numbers
-this_is_a_int = 5
+5
 
 # float: Decimals Numbers
-this_is_a_float = 3.14
+3.14
 
 # string: Words, Sentences, Letters
-this_is_a_string = "Hello Reader!"
+"Hello Reader!"
 
 # bool: True or False
-this_is_a_boolean = True
+True
+False
 
-# list: Arrays 
+# list: Holds multiple of the datatypes above
 this_is_a_list = ["Python", "C++", "R", 12, True, 3.14]
 
-# dict: Similar to Arrays but use Key-Value
+# dict: Similar to List but use Key-Value. So Key 1 is Wikipedia, while Key 3 is W3Schools
 this_is_a_dictionary = {1: "Wikipedia", 2: "YouTube", 3:"W3Schools"}
 
 ```
 
 
-**Math Operators**
+**Math Operators** 
 ```python
 # + for Addition
-print(3 + 5) #8
+3 + 5 #8
 
 # - for Subtraction
-print(5 - 5) #0
+5 - 5 #0
 
 # * for Multiplication
-print(2 * 2) #4
+2 * 2 #4
  
 # / for Division
-print(4 / 2) #2
+4 / 2 #2
 
 # // for Integer Division
-print(25 // 2 ) #12
+25 // 2  #12
 
-# % for Modulo
-print(25 % 2) #1
+# % for Modulo (Remainder)
+25 % 2 #1
  
 # ** for Exponent
-print(3 ** 3) #27
+3 ** 3 #27
+
+
+
+
 ```
 
 **Variables**
@@ -51,6 +56,8 @@ print(3 ** 3) #27
 my_variable = "I am a Variable! I am of a String Type"
 my_second_variable = 4
 my_third_variable = 3.14
+my_fourth_variable = 3 * 4
+
 
 # Naming Variables do follow certain rules:
 # -It can only be one word
@@ -64,23 +71,23 @@ my_third_variable = 3.14
 # variables. Whatever we want to "See" the outcome of in the terminal, we Print
 
 # Printing Data Types
-print(5)
-print(3.14)
-print("Hello World")
-print(True)
+print(5) #5
+print(3.14) #3.14
+print("Hello World") #Hello World
+print(True) #True
 
 # Printing Variables
 var_one = 7
 var_two = 3
 var_three = "Hello World"
 
-print(var_one)
-print(var_two)
-print(var_three)
+print(var_one) #7
+print(var_two) #3
+print(var_three) #Hello World
 
 # We can even use our Math Operators, just like you've seen earlier
-print(var_one + var_two)
-print(2+3)
+print(var_one + var_two) #10
+print(2+3) #5
 
 ```
 
