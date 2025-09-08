@@ -94,3 +94,12 @@ def add_func():
 	Function Docstrings!
 	"""
 ```
+
+**For Loops & While Loops**
+```python
+count = 0
+while(True):
+	print(count)
+	count+=1
+
+```

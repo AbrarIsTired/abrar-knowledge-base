@@ -1,4 +1,4 @@
-**GIT Cheat Sheet**
+**Git Cheat Sheet**
 Account Setup (New Device)
 ```
 git config --global user.name "USERNAME"
