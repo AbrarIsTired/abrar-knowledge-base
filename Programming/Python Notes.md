@@ -58,6 +58,10 @@ my_second_variable = 4
 my_third_variable = 3.14
 my_fourth_variable = 3 * 4
 
+# We don't need to declare the type of variable either 
+# We can also overwrite ote
+x = 3
+x = "Hello"
 
 # Naming Variables do follow certain rules:
 # -It can only be one word
@@ -95,11 +99,6 @@ print(2+3) #5
 ```python
 # Use the Pound/Hashtag to Comment just like this one!
 # Python will ignore anything in these comments
-# Later on we will go over Docstrings such as this one:
-def add_func():
-	"""
-	Function Docstrings!
-	"""
 ```
 
 **For Loops & While Loops**
